@@ -286,7 +286,6 @@ public class Totem {
 
 	        while (System.currentTimeMillis() < tempoFinal) {
 	            System.out.print(CIANO_TEXT + "\rProcessando... " + spinner[i % spinner.length] + RESET);
-
 	            Thread.sleep(75);
 	            i++;
 	        }
